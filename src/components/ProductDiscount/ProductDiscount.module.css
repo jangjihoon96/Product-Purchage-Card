@@ -1,0 +1,11 @@
+.disconutWrap {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.discountRate {
+  flex-grow: 1;
+}
+.salePrice {
+  margin-left: 6px;
+}

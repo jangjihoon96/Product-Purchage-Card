@@ -1,0 +1,39 @@
+.productTooltip {
+  width: 296px;
+  padding: 8px 16px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  position: absolute;
+  top: 24px;
+  left: 0;
+  line-height: 1.5;
+}
+.closeButton {
+  width: 17px;
+  height: 17px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.line01 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 10px;
+  height: 1px;
+  background-color: var(--color-gray-400);
+}
+.line02 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 10px;
+  height: 1px;
+  background-color: var(--color-gray-400);
+}

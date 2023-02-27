@@ -1,0 +1,23 @@
+.buyButton {
+  width: 100%;
+  padding: 10px 0;
+  background-color: var(--color-primary-100);
+  border: 0;
+  border-radius: 6px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.buyButton:hover {
+  background-color: var(--color-primary-200);
+}
+
+.buyButton:disabled {
+  background-color: var(--color-gray-200);
+  color: var(--color-gray-300);
+  cursor: not-allowed;
+}

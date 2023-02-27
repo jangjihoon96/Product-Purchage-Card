@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: clamp(320px, 100vw, 800px);
+  padding: 1rem;
+  margin: 0 auto;
+}
+.A11yHidden {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: circle(0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+.lineSection {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dee0e3;
+}
+.marginTop {
+  margin-top: 16px;
+}
+.lineThrough {
+  text-decoration: line-through;
+}
+.textAlignCenter {
+  text-align: center;
+}
+.whiteColor {
+  color: #fff;
+}
+.secondaryColor {
+  color: var(--color-secondary);
+}
+.gray400Color {
+  color: var(--color-gray-400);
+}
+.gray300Color {
+  color: var(--color-gray-300);
+}
+.gray200Color {
+  color: var(--color-gray-200);
+}
+.gray100Color {
+  color: var(--color-gray-100);
+}
+.fontWeight700 {
+  font-weight: 700;
+}
+.fontWeight600 {
+  font-weight: 600;
+}
+.fontWeight500 {
+  font-weight: 500;
+}
+.fontWeight400 {
+  font-weight: 400;
+}
+.fontSize24 {
+  font-size: 24px;
+}
+.fontSize22 {
+  font-size: 22px;
+}
+.fontSize18 {
+  font-size: 18px;
+}
+.fontSize16 {
+  font-size: 16px;
+}
+.fontSize14 {
+  font-size: 14px;
+}
+.fontSize12 {
+  font-size: 12px;
+}

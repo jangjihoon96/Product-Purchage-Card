@@ -1,0 +1,28 @@
+.finallyWrap {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 6px;
+}
+.total {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 4px;
+}
+.totalQuantity {
+  border-right: 1px solid var(--color-gray-200);
+  padding-right: 6px;
+}
+.tooltipInfoButton {
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  align-self: center;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  padding: 0;
+  cursor: pointer;
+}

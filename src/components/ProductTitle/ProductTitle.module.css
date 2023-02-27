@@ -1,0 +1,5 @@
+.productTitle {
+  display: flex;
+  flex-flow: column;
+  color: var(--color-gray-400);
+}
